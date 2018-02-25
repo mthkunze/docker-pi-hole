@@ -1,3 +1,5 @@
+mthkunze Fork for Development
+
 ## Imporant Note to alpine / arm tag users: 
 
 **Debian is now the only supported base OS for `diginc/pi-hole`** to improve consistency and updates.  Alpine OS was dropped and ARM has moved to a new image/tag name.  The ARM Debian tag was removed from `diginc/pi-hole` but is still supported at it's now image repostiroy home,  [diginc/pi-hole-multiarch](https://hub.docker.com/r/diginc/pi-hole-multiarch/tags/) where it has both an `:debian_armhf` and `:debian_aarch64` version
@@ -153,7 +155,3 @@ NOTE:  After initial run you may need to manually stop the docker container with
 | tag                 | architecture | description                                                             | Dockerfile |
 | ---                 | ------------ | -----------                                                             | ---------- |
 | `debian_dev`        | x86          | Debian x86 image, container running lighttpd and dnsmasq                | [Dockerfile](https://github.com/diginc/docker-pi-hole/blob/dev/debian.docker) |
-
-# User Feedback
-
-Please report issues on the [GitHub project](https://github.com/diginc/docker-pi-hole) when you suspect something docker related.  Pi-Hole questions are best answered on their [user forums](https://github.com/pi-hole/pi-hole/blob/master/README.md#get-help-or-connect-with-us-on-the-web).  Ping me (@diginc) on there if it's a docker and you're not sure if it's docker related.
