@@ -1,0 +1,10 @@
+*.sw*
+*.pyc
+.cache
+__pycache__
+.tox
+.eggs
+UNKNOWN.egg-info
+
+# WIP/test stuff
+doco.yml
